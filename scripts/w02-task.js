@@ -6,7 +6,7 @@
 let fullName = 'Cesar Franco Chavez';
 let currentYear = new Date().getFullYear();
 //console.log(currentYear);
-let profilePicture = 'images/fotocse121b.jpg';
+var profilePicture = 'images/fotocse121b.jpg';
 
 
 
