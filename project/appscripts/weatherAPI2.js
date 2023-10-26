@@ -12,8 +12,8 @@ async function fetchWeatherData(latitude, longitude) {
               Value: weatherData.hourly.temperature_2m[0],
             },
           },
-          WeatherIcon: 1, // Replace with the appropriate value if available
-          WeatherText: 'Weather description', // Replace with the appropriate value if available
+          WeatherIcon: 1, 
+          WeatherText: 'Weather description', 
         };
       }
     }
