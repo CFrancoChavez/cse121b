@@ -9,7 +9,10 @@
 button, input {
     cursor: pointer;
     border: none;
-    background: none;
+    background: rgb(194, 76, 76);
+    padding: 10px;
+    margin:15px 15px 15px 0px;
+    border-radius: 8px;
     outline: none;
     color: inherit;
 }
