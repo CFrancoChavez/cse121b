@@ -3,28 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="project/styles/app.css">
-    <title>Easy Weather APP</title>
+    <link rel="stylesheet" href="styles/app.css">
+    <title>Easy Weather App</title>
 </head>
 <body>
-    <section class="top-banner"> 
-        <div class="container"> 
-            <h1 class="heading">Easy Weather App</h1> 
-            <form> <input type="text" placeholder="Search for a city" autofocus> <button type="submit">SUBMIT</button> <span class="msg"></span> 
-            </form> </div> 
-    </section> 
-    <section class="ajax-section"> 
-        <div class="container"> 
-            <ul class="cities"></ul> 
-        </div> 
+    <section class="top-banner">
+        <div class="container">
+            <h1 class="heading">Easy Weather App</h1>
+            <button id="query-button">Query Weather Data</button>
+            <span class="msg"></span>
+        </div>
     </section>
-    <li class="city"> 
-        <h2 class="city-name" data-name="..."> <span>...</span> <sup>...</sup> 
-        </h2> <span class="city-temp">...<sup>°C</sup></span> 
-        <figure> <img class="city-icon" src="..." alt="..."> 
-        <figcaption>...</figcaption> 
-        </figure> 
-    </li>
+    <section class="ajax-section">
+        <div class="container">
+            <ul class="cities"></ul>
+        </div>
+    </section>
     <section class="card-section">
         <div class="container">
             <ul class="cards"></ul>
@@ -35,10 +29,7 @@
             <p>&copy; 2023 Franco Chavez. All rights reserved.</p>
         </div>
     </footer>
-      
-    
-    <script type="module" src="project/app/weatherAPI.js"></script>
-    <script type="module" src="project/app/app.js"></script>
- 
+    <script type="module" src="weatherAPI.js"></script>
+    <script type="module" src="app.js"></script>
 </body>
 </html>
